@@ -204,3 +204,8 @@ function change(obj) {
 function reloadHome() {
     location.reload(forceGet);
 }
+
+// Adds popup window for disabled form submit buttons
+function formDisabled() {
+    alert('Sorry, this form will not be sent from this sample page.')
+}
